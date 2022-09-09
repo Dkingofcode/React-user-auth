@@ -58,7 +58,7 @@ const Login = () => {
              required
              />
              
-        <label htmlFor="password">Password:</label>
+        <label htmlFor="password" className="pswd">Password:</label>
         <input type="password" id="password" autoComplete="off"
             onChange={(e) => setPassword(e.target.value)}
              value={password}
